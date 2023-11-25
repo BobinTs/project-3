@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: hsla(349, 18%, 47%, 0.955);
+}
+#part1 {
+  height: 100%;
+  width: 26%;
+  /* background-color: red; */
+}
+#part2 {
+  height: 100%;
+  width: 66%;
+  background-color: rgb(0, 195, 255);
+  background-image: url(https://images.unsplash.com/photo-1611042553484-d61f84d22784?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: top center;
+}
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(348deg 33.05% 48.53% / 29%);
+}
+#part3 {
+  height: 100%;
+  width: 7%;
+  /* background-color: rgb(78, 169, 78); */
+}
+#text-div {
+  position: absolute;
+  width: 400px;
+  left: 8%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#text-div > h1 {
+  font-size: 95px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 80px;
+  color: #fff;
+}
+#small-img-div {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://images.unsplash.com/photo-1610642433569-fb4f62b3795f?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translate(0, -50%);
+}
+#vertical-text {
+  position: absolute;
+  /* width: 100%; */
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+  right: -46%;
+  top: 0%;
+}
+#vertical-text h1 {
+  font-size: 65px;
+  font-weight: 900;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  font-family: "Roboto", sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(252, 245, 245);
+}
+#nav {
+  position: absolute;
+  width: 298px;
+  display: flex;
+  justify-content: space-between;
+  left: 8%;
+  top: 5%;
+  align-items: center;
+}
+#nav img {
+  height: 60px;
+}
+#nav h5 {
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+}
